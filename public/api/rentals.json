@@ -1,0 +1,878 @@
+{
+  "data": [
+    {
+      "type": "rentals",
+      "id": "amsterdam-apartment",
+      "attributes": {
+        "title": "Cozy, Modern Appt. in the City",
+        "owner": "Jon Pol",
+        "city": "Amsterdam",
+        "state": "Amsterdam",
+        "country": "Netherlands",
+        "location": {
+          "lat": 52.4027,
+          "lng": 4.8668
+        },
+        "category": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 37,
+        "image": "/assets/Project-Images/apartments/Amsterdam-Apt.jpg",
+        "description": "Experiance all that Amsterdam has to offer in this close to the action apartment!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "utah-house",
+      "attributes": {
+        "title": "Mansion in the Utah Mountains",
+        "owner": "Dave Sparks",
+        "city": "Park City",
+        "state": "Utah",
+        "country": "United States",
+        "location": {
+          "lat": 40.6453,
+          "lng": -111.4687
+        },
+        "category": "House",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 245,
+        "image": "/assets/Project-Images/houses/ParkCity-House.jpg",
+        "description": "Stay at our beautiful house just minutes away from the slopes. Then relax your muscles a heated pool and hottub!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "alaska-house",
+      "attributes": {
+        "title": "Alaskan Glass Box House",
+        "owner": "Sarah Palin",
+        "city": "Fairbanks",
+        "state": "Alaska",
+        "country": "United States",
+        "location": {
+          "lat": 64.8136,
+          "lng": -147.71187
+        },
+        "category": "House",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "Half",
+        "wifi": "No",
+        "price": 95,
+        "image": "/assets/Project-Images/houses/Alaska-House.jpg",
+        "description": "Experiance the Alaskan mountain beauty from the comfort of a heated room!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "asbury_park-room",
+      "attributes": {
+        "title": "Room Steps from the Beach",
+        "owner": "Snooki",
+        "city": "Asbury Park",
+        "state": "New Jersey",
+        "country": "United States",
+        "location": {
+          "lat": 40.2203,
+          "lng": -74.0124
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "Yes",
+        "price": 25,
+        "image": "/assets/Project-Images/rooms/Asbury_Park-Room.jpg",
+        "description": "Just a few steps through the backyard to your own private beach!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "washington-house",
+      "attributes": {
+        "title": "Hobbit House",
+        "owner": "Bilbo Baggins",
+        "city": "Orando",
+        "state": "Washington",
+        "country": "United States",
+        "location": {
+          "lat": 47.6246,
+          "lng": -120.2278
+        },
+        "category": "House",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "kitchen": "Half",
+        "wifi": "No",
+        "price": 50,
+        "image": "/assets/Project-Images/houses/Washington-House.jpg",
+        "description": "Live like a hobbit from Lord of the Rings, and stay in your very own hobbit hole in Washington State!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "boston-apt",
+      "attributes": {
+        "title": "Modern Open-Concept Boston Apt.",
+        "owner": "Mark Wahlberg",
+        "city": "Boston",
+        "state": "Massachusetts",
+        "country": "United States",
+        "location": {
+          "lat": 42.3601,
+          "lng": -71.0584
+        },
+        "category": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "kitchen": "Half",
+        "wifi": "Yes",
+        "price": 40,
+        "image": "/assets/Project-Images/apartments/Boston-Apt.jpg",
+        "description": "Stay in downtown, historical Boston!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "philadelphia-room",
+      "attributes": {
+        "title": "Historic Philadelphia Awaits!",
+        "owner": "Carson Wentz",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "location": {
+          "lat": 39.9489,
+          "lng": -75.1455
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "Yes",
+        "price": 27,
+        "image": "/assets/Project-Images/rooms/Philadelphia-Room.jpg",
+        "description": "Explore the best parts of Philadelphia, then come back and relax in our room."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "shoreline_WA-apt",
+      "attributes": {
+        "title": "Gamer's Paradise",
+        "owner": "Ninja",
+        "city": "Shoreline",
+        "state": "Washington",
+        "country": "United States",
+        "location": {
+          "lat": 47.7560,
+          "lng": -122.3442
+        },
+        "category": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "Half",
+        "wifi": "Yes",
+        "price": 118,
+        "image": "/assets/Project-Images/apartments/Shoreline_WA-Apt.jpg",
+        "description": "Rent your very own gameroom/apartment just outside of Seattle, Washington!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "dallas-room",
+      "attributes": {
+        "title": "Modern Masculine Room",
+        "owner": "Tony Romo",
+        "city": "Dallas",
+        "state": "Texas",
+        "country": "United States",
+        "location": {
+          "lat": 32.7759,
+          "lng": -96.7956
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "Yes",
+        "price": 30,
+        "image": "/assets/Project-Images/rooms/Dallas-Room.jpg",
+        "description": "Stay with us in our newly renovated bedroom with many masculine features but still comfort."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "coolangatta-Apt",
+      "attributes": {
+        "title": "Spacious Apt. Overlooking Ocean",
+        "owner": "Luke Hemmings",
+        "city": "Coolangatta",
+        "state": "Queensland",
+        "country": "Australia",
+        "location": {
+          "lat": -28.1682,
+          "lng": 153.5375
+        },
+        "category": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 99,
+        "image": "/assets/Project-Images/apartments/coolangatta-apt.jpg",
+        "description": "Visit Australia and stay in this beautiful appartment overlooking the ocean."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "hamptons-house",
+      "attributes": {
+        "title": "Luxurious House in the Hamptons",
+        "owner": "Steven Spielburg",
+        "city": "Hamptons",
+        "state": "New York",
+        "country": "United States",
+        "location": {
+          "lat": 40.9638,
+          "lng": -72.1816
+        },
+        "category": "House",
+        "bedrooms": 8,
+        "bathrooms": 10,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 299,
+        "image": "/assets/Project-Images/Houses/Hamptons-House.jpg",
+        "description": "Live in absolute luxury during your stay and party like a celebrity!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "kakos-house",
+      "attributes": {
+        "title": "Kakos Kave House",
+        "owner": "Cher",
+        "city": "Koroni",
+        "state": "Koroni",
+        "country": "United States",
+        "location": {
+          "lat": 36.7958,
+          "lng": 21.9576
+        },
+        "category": "House",
+        "bedrooms": 8,
+        "bathrooms": 10,
+        "kitchen": "Full",
+        "wifi": "No",
+        "price": 143,
+        "image": "/assets/Project-Images/Houses/Kakos-House.jpg",
+        "description": "Mama Mia!! Experiance the life of luxury in Greese!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "lavenham-house",
+      "attributes": {
+        "title": "Harry Potter House",
+        "owner": "Luna Lovegood",
+        "city": "Lavenham",
+        "state": "Sudbury",
+        "country": "England",
+        "location": {
+          "lat": 52.1099,
+          "lng": 0.7981
+        },
+        "category": "House",
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "kitchen": "Full",
+        "wifi": "No",
+        "price": 122,
+        "image": "/assets/Project-Images/Houses/Lavenham-House.jpg",
+        "description": "As Seen In Harry Potter!! Live in house where scenes from the world famous movie was filmed!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "newyork-apt",
+      "attributes": {
+        "title": "NYC Views",
+        "owner": "Steve Carrel",
+        "city": "New York City",
+        "state": "New York",
+        "country": "United States",
+        "location": {
+          "lat": 40.7308,
+          "lng": -73.9869
+        },
+        "category": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 105,
+        "image": "/assets/Project-Images/Apartments/NewYorkCity-Apt.jpg",
+        "description": "Appt in the city with floor to ceiling windows."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "seattle-apt",
+      "attributes": {
+        "title": "Floating Seattle Apartment",
+        "owner": "Bill Gates",
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "United States",
+        "location": {
+          "lat": 47.6196,
+          "lng": -122.3310
+        },
+        "category": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "Half",
+        "wifi": "Yes",
+        "price": 205,
+        "image": "/assets/Project-Images/Apartments/Seattle-Apt.jpg",
+        "description": "Feel like you're floating in the clouds in this one of a kind apartment!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "philly-apt2",
+      "attributes": {
+        "title": "Views of Center City Philly!",
+        "owner": "Kevin Hart",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "location": {
+          "lat": 39.9392,
+          "lng": -75.1899
+        },
+        "category": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 55,
+        "image": "/assets/Project-Images/Apartments/Philadelphia2-Apt.jpg",
+        "description": "Overlook beautiful downtown Philadelphia through our 10ft windows"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "raleigh-apt",
+      "attributes": {
+        "title": "Spacious Luxury Appartment",
+        "owner": "Zach Galifanakis",
+        "city": "Raleigh",
+        "state": "North Carolina",
+        "country": "United States",
+        "location": {
+          "lat": 39.9392,
+          "lng": -75.1899
+        },
+        "category": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 55,
+        "image": "/assets/Project-Images/Apartments/Philadelphia2-Apt.jpg",
+        "description": "Overlook beautiful downtown Philadelphia through our 10ft windows."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "alaska-room",
+      "attributes": {
+        "title": "Alaskin Cabin Room",
+        "owner": "Bob Ross",
+        "city": "Anchorage",
+        "state": "Alaska",
+        "country": "United States",
+        "location": {
+          "lat": 61.2149,
+          "lng": -149.8958
+        },
+        "category": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "No",
+        "price": 18,
+        "image": "/assets/Project-Images/Rooms/Fairbanks_AK-Room.jpg",
+        "description": "Stay in your very own Alaskin Cabin. Steps away from nature at any moment!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "malibu-house",
+      "attributes": {
+        "title": "Malibu Mountain Mansion",
+        "owner": "Kanye West",
+        "city": "Malibu",
+        "state": "California",
+        "country": "United States",
+        "location": {
+          "lat": 34.0355,
+          "lng": -118.6893
+        },
+        "category": "House",
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 333,
+        "image": "/assets/Project-Images/Houses/Malibu-House.jpg",
+        "description": "Overlook the ocean from your pool on top of your very own mountain."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "wilton_castle-house",
+      "attributes": {
+        "title": "Irish Castle",
+        "owner": "Liam Neeson",
+        "city": "Wexford",
+        "state": "Ireland",
+        "country": "United Kingdom",
+        "location": {
+          "lat": 52.3367,
+          "lng": -6.4602
+        },
+        "category": "House",
+        "bedrooms": 12,
+        "bathrooms": 10,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 299,
+        "image": "/assets/Project-Images/Houses/WiltonCastle-House.jpg",
+        "description": "Live like royalty in this giant Irish Castle!!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "swiss-house",
+      "attributes": {
+        "title": "Underground Swiss Home",
+        "owner": "Roger Federer",
+        "city": "Vals",
+        "state": "Graubünden",
+        "country": "Switzerland",
+        "location": {
+          "lat": 46.6162,
+          "lng": 9.1807
+        },
+        "category": "House",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 77,
+        "image": "/assets/Project-Images/Houses/Vals_Swiss-House.jpg",
+        "description": "Enjoy life in a one of a kind underground home in the beautiful Swiss Mountains."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "las-vegas-room",
+      "attributes": {
+        "title": "Las Vegas Strip Hotel Room",
+        "owner": "Kyle Busch",
+        "city": "Las Vegas",
+        "state": "Nevada",
+        "country": "United States",
+        "location": {
+          "lat": 36.1656,
+          "lng": -115.1500
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "Yes",
+        "price": 40,
+        "image": "/assets/Project-Images/Rooms/LasVegas-Room.jpg",
+        "description": "Just a short elevator ride down and a few steps away from your favorite casinos!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "rome-apt",
+      "attributes": {
+        "title": "Overlook Downtown Rome",
+        "owner": "Robert De Niro",
+        "city": "Rome",
+        "state": "Rome",
+        "country": "Italy",
+        "location": {
+          "lat": 41.8944,
+          "lng": 12.4857
+        },
+        "category": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "kitchen": "Full",
+        "wifi": "No",
+        "price": 89,
+        "image": "/assets/Project-Images/Apartments/Rome-Apt.jpg",
+        "description": "Live in the heart of Rome Italy and experiance all it's culture first hand."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "philly-apt3",
+      "attributes": {
+        "title": "Beautiful South Philly Apt.",
+        "owner": "Lil Uzi Vert",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "location": {
+          "lat": 39.9392,
+          "lng": -75.1899
+        },
+        "category": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 62,
+        "image": "/assets/Project-Images/Apartments/Philadelphia3-Apt.jpg",
+        "description": "Spacious apartment in South Philadelphia. Experience the Philly night life and so much more!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "tokyo-room",
+      "attributes": {
+        "title": "Tokyo Heights",
+        "owner": "Han Lu",
+        "city": "Tokyo",
+        "state": "Tokyo",
+        "country": "Japan",
+        "location": {
+          "lat": 35.6826,
+          "lng": 139.7595
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "Half",
+        "wifi": "Yes",
+        "price": 60,
+        "image": "/assets/Project-Images/Rooms/Tokyo-Room.jpg",
+        "description": "Stay in Tokyo's premire rooms as you over look the busy city below."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "australia-house",
+      "attributes": {
+        "title": "Hip House on Hill",
+        "owner": "Chris Hemsworth",
+        "city": "Mount Isa",
+        "state": "Queensland",
+        "country": "Australia",
+        "location": {
+          "lat": -20.7295,
+          "lng": 139.4912
+        },
+        "category": "House",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 82,
+        "image": "/assets/Project-Images/Houses/Australia-House.jpg",
+        "description": "Stay in a super modern house overlooking the Austalian countryside."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "hiltonhead-house",
+      "attributes": {
+        "title": "Modern Glass Mansion",
+        "owner": "Paris Hilton",
+        "city": "Hilton Head Island",
+        "state": "South Carolina",
+        "country": "United States",
+        "location": {
+          "lat": 32.1620,
+          "lng": -80.7508
+        },
+        "category": "House",
+        "bedrooms": 6,
+        "bathrooms": 5,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 210,
+        "image": "/assets/Project-Images/Houses/HiltonHead-House.jpg",
+        "description": "Gorgeous mansion just a short walk or bike ride from the beach!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "limpopo-house",
+      "attributes": {
+        "title": "African Safari House",
+        "owner": "Elon Musk",
+        "city": "Limpopo",
+        "state": "South Africa",
+        "country": "Africa",
+        "location": {
+          "lat": -22.8806,
+          "lng": 30.1554
+        },
+        "category": "House",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "No",
+        "price": 88,
+        "image": "/assets/Project-Images/Houses/Limpopo-House.jpeg",
+        "description": "Stay in your own house just a short drive away from a desert safari."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "jacksonville-apt",
+      "attributes": {
+        "title": "Duvallll!!",
+        "owner": "Jason Mandoza",
+        "city": "JacksonVille",
+        "state": "Florida",
+        "country": "United States",
+        "location": {
+          "lat": 30.3313,
+          "lng": -81.6563
+        },
+        "category": "House",
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 38,
+        "image": "/assets/Project-Images/Apartments/Jacksonville-Apt.jpg",
+        "description": "Stay here and cheer on the Jags on Sundays!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "philly-apt4",
+      "attributes": {
+        "title": "Luxurious South Philly Appt.",
+        "owner": "Kevin Hart",
+        "city": "Philadelphia",
+        "state": "Pennsylvania",
+        "country": "United States",
+        "location": {
+          "lat": 39.9392,
+          "lng": -75.1899
+        },
+        "category": "Apartment",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 55,
+        "image": "/assets/Project-Images/Apartments/Philadelphia4-Apt.jpg",
+        "description": "Luxury South Philly Apt near all the Philadelphia Stadiums."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "oakland-room",
+      "attributes": {
+        "title": "Rustic Oakland Room",
+        "owner": "Ice Cube",
+        "city": "Oakland",
+        "state": "California",
+        "country": "United States",
+        "location": {
+          "lat": 37.8042,
+          "lng": -122.2709
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "Yes",
+        "price": 29,
+        "image": "/assets/Project-Images/Rooms/Oakland-Room.jpg",
+        "description": "Experience the best that Southern California has to offer while you stay with us."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "richmond-room",
+      "attributes": {
+        "title": "Luxurious Richmond Room",
+        "owner": "Barack Obama",
+        "city": "Richmond",
+        "state": "Virgina",
+        "country": "United States",
+        "location": {
+          "lat": 37.5379,
+          "lng": -77.4338
+        },
+        "category": "Room",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "None",
+        "wifi": "Yes",
+        "price": 88,
+        "image": "/assets/Project-Images/Rooms/Richmond-Room.jpg",
+        "description": "Visit Washington DC or many other places around nothern VA."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "northbend-house",
+      "attributes": {
+        "title": "Washington Lake House",
+        "owner": "Dr. Phil",
+        "city": "Northbend",
+        "state": "Washington",
+        "country": "United States",
+        "location": {
+          "lat": 47.5382,
+          "lng": -121.8596
+        },
+        "category": "House",
+        "bedrooms": 5,
+        "bathrooms": 7,
+        "kitchen": "Full",
+        "wifi": "No",
+        "price": 160,
+        "image": "/assets/Project-Images/Houses/NorthBend_WA-House.jpg",
+        "description": "Stay at your very own lakehouse in northern Washington! Canoe, hike and more!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "thimister-apt",
+      "attributes": {
+        "title": "Ultra-Modern Apartment",
+        "owner": "Gotye",
+        "city": "Thimister",
+        "state": "Liege",
+        "country": "Belgium",
+        "location": {
+          "lat": 50.4328,
+          "lng": 4.6450
+        },
+        "category": "Apartment",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 88,
+        "image": "/assets/Project-Images/Apartments/Thimister-Apt.jpg",
+        "description": "See what its like to live at the height of luxury, and maybe get some waffles too!"
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "sanfrancisco-apt",
+      "attributes": {
+        "title": "Modern Apartment in San-Francisco",
+        "owner": "Sheldon Cooper",
+        "city": "San-Fransisco",
+        "state": "California",
+        "country": "United States",
+        "location": {
+          "lat": 37.7781,
+          "lng": -122.4182
+        },
+        "category": "Apartment",
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 66,
+        "image": "/assets/Project-Images/Apartments/SanFrancisco-Apt.jpg",
+        "description": "Stay in a Modern Appartment in San Fransisco."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "provence-house",
+      "attributes": {
+        "title": "Luxurious French Compound",
+        "owner": "Sacha Baron Cohen",
+        "city": "Provence",
+        "state": "Provence",
+        "country": "France",
+        "location": {
+          "lat": 43.6713,
+          "lng": 7.0888
+        },
+        "category": "House",
+        "bedrooms": 8,
+        "bathrooms": 10,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 300,
+        "image": "/assets/Project-Images/Houses/Provence_France-House.jpeg",
+        "description": "Enjoy all the best that wine country has to offer in the South of France."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "siliconValley-house",
+      "attributes": {
+        "title": "Tech World",
+        "owner": "Steve Wozniack",
+        "city": "Silicon Valley",
+        "state": "California",
+        "country": "United States",
+        "location": {
+          "lat": 37.4437,
+          "lng": -122.1615
+        },
+        "category": "House",
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "kitchen": "Full",
+        "wifi": "Yes",
+        "price": 65,
+        "image": "/assets/Project-Images/Houses/SiliconValley-House.jpg",
+        "description": "Stay in the heart of the tech world in this beautiful home in the Valley."
+      }
+    },
+    {
+      "type": "rentals",
+      "id": "temecula-house",
+      "attributes": {
+        "title": "Airstream Nature Experience",
+        "owner": "Alex Warren",
+        "city": "Temecula",
+        "state": "California",
+        "country": "United States",
+        "location": {
+          "lat": 33.4933,
+          "lng": -117.1494
+        },
+        "category": "House",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "kitchen": "Half",
+        "wifi": "Yes",
+        "price": 49,
+        "image": "/assets/Project-Images/Houses/Temecula-House.jpg",
+        "description": "Reconnect with nature while staying in this beautiful, fully renovated airstream camper in the hills of California."
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+
+<div oncontextmenu="return false">
+<br><br><br><br><br>
+		<div class="title">
+			<label>Log In to LexPark Here:</label>
+		</div>
+		<br>
+		<br>
+		<form name="login">
+		<div class="login">
+				<input type="text" placeholder="username (email)" name="userid"><br>
+				<input type="password" placeholder="password" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+			<p id ="success" style="visibility: hidden;">You are now logged in!</p>
+			<p id ="fail" style="visibility: hidden;">Login failed, please try again.</p>
+		</div>
+	
+
+
+    </form>
+<script language="javascript">
+	var userAccounts = [{
+
+		username: "MoneyMcGraw@drPhil.com",
+		password: "Dr_Phil"
+	},
+	{
+	username: "teigenLegend@gmail.com",
+		password: "chrissyteigen"
+	},
+	{
+	username: "tomHanks@yahoo.com",
+		password: "BigHanks"
+	},
+	{
+	username: "DJRock@gymlife.com",
+		password: "TheRock"
+	},
+	{
+	username: "HanLue@drifter.com",
+		password: "SungKang"
+	},
+	{
+	username: "GalGadot@gmail.com",
+		password: "YaGirl_Gal"
+	},
+	{
+	username: "RyGuyReynolds@yahoo.com",
+		password: "VancityReynolds"
+	},
+	{
+	username: "BadBabeBillie@eyelash.com",
+		password: "BillieEyelash"
+	},
+	{
+	username: "PostMalone@gmail.com",
+		password: "Postie"
+	},
+	{
+	username: "halsey@aol.com",
+		password: "iamhalsey"
+	}
+	];
+function check(form)
+{
+	let message ="";
+
+ for(var i = 0; i < userAccounts.length; i++) {
+ 
+  if((form.userid.value == userAccounts[0].username && form.pswrd.value == userAccounts[0].password) ||
+   (form.userid.value == userAccounts[1].username && form.pswrd.value == userAccounts[1].password) ||
+    (form.userid.value == userAccounts[2].username && form.pswrd.value == userAccounts[2].password)|| 
+	(form.userid.value == userAccounts[3].username && form.pswrd.value == userAccounts[3].password)|| 
+	(form.userid.value == userAccounts[4].username && form.pswrd.value == userAccounts[4].password)|| 
+	(form.userid.value == userAccounts[5].username && form.pswrd.value == userAccounts[5].password)|| 
+	(form.userid.value == userAccounts[6].username && form.pswrd.value == userAccounts[6].password)|| 
+	(form.userid.value == userAccounts[7].username && form.pswrd.value == userAccounts[7].password)|| 
+	(form.userid.value == userAccounts[8].username && form.pswrd.value == userAccounts[8].password)|| 
+	(form.userid.value == userAccounts[9].username && form.pswrd.value == userAccounts[9].password) ||
+  { 
+	  	document.getElementById("success").style.visibility='visible';
+		document.getElementById("fail").style.visibility='hidden';
+		break;
+  }
+ else
+ {
+	 	document.getElementById("success").style.visibility='hidden';
+	    document.getElementById("fail").style.visibility='visible';
+		break;
+  }
+}
+}
+</script>
+
+</div>

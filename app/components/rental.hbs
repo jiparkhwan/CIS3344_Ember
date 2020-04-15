@@ -1,0 +1,51 @@
+<article class="rental">
+    <Rental::Image
+        src={{@rental.image}}
+        alt="A picture of alt={{@rental.title}}"
+    />
+    <div class="details">
+        <h3>
+            <LinkTo @route="rental" @model={{@rental}}>
+                {{@rental.title}}
+            </LinkTo>
+        </h3>
+        <div class="detail type">
+            <span>Type: </span>{{@rental.category}}
+        </div>
+        <div class="detail owner">
+            <span>Owner: </span>{{@rental.owner}}
+        </div>
+        <div class="detail location">
+            <span>City: </span>{{@rental.city}}
+        </div>
+        <div class="detail state">
+            <span>State: </span>{{@rental.state}}
+        </div>
+        <div class="detail country">
+            <span>Country: </span>{{@rental.country}}
+        </div>
+        <div class="detail bedrooms">
+            <span>Number of Bedrooms: </span>{{@rental.bedrooms}}
+        </div>
+        <div class="detail bathrooms">
+            <span>Number of Bathrooms: </span>{{@rental.bathrooms}}
+        </div>
+        <div class="detail kitchen">
+            <span>Kitchen Type: </span>{{@rental.kitchen}}
+        </div>
+        <div class="detail wifi">
+            <span>Wifi?: </span>{{@rental.wifi}}
+        </div>
+        <div class="detail-price">
+            <p><span>Price: </span>${{@rental.price}}</p>
+        </div>
+    </div>
+    <Map
+    @lat={{@rental.location.lat}}
+    @lng={{@rental.location.lng}}
+    @zoom="9"
+    @width="150"
+    @height="150"
+    alt="A map of {{@rental.title}}"
+    />
+</article>

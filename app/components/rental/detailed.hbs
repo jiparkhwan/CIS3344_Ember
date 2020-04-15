@@ -1,0 +1,73 @@
+<Info>
+  <h2>{{@rental.title}}</h2>
+  <p>Share this property in {{@rental.city}} on Twitter or Facebook!</p>
+  <div class="share-twitter">
+    <ShareButton
+      @text="Check out {{@rental.title}} at LexPark.com!"
+      @hashtag="vacation, travel, work, luxury, lexpark"
+      @via="emberjs"
+    >
+      <img src="/assets/twitterimg.png" alt="twitter"/>
+    </ShareButton>
+  </div>
+  <div class="share-fb">
+    <a href="https://www.facebook.com/emberjavascript/"target="_blank" id="link-style" rel="external nofollow noopener noreferrer">
+    <img src="/assets/fbimg.png" alt="twitter"/></a>
+  </div>
+</Info>
+
+<article class="rental detailed">
+  <Rental::Image
+    src={{@rental.image}}
+    alt="A picture of {{@rental.title}}"
+  />
+  <div class="details">
+    <h3>{{@rental.title}}</h3>
+    <div class="detail type">
+      <span>Type:</span> {{@rental.type}} – {{@rental.category}}
+    </div>
+    <div class="detail owner">
+      <span>Owner:</span> {{@rental.owner}}
+    </div>
+    <div class="detail location">
+      <span>Location:</span> {{@rental.city}}
+    </div>
+    <div class="detail state">
+        <span>State: </span>{{@rental.state}}
+    </div>
+    <div class="detail country">
+        <span>Country: </span>{{@rental.country}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Number of bedrooms:</span> {{@rental.bedrooms}}
+    </div>
+    <div class="detail bathrooms">
+        <span>Number of Bathrooms: </span>{{@rental.bathrooms}}
+    </div>
+    <div class="detail kitchen">
+        <span>Kitchen Type: </span>{{@rental.kitchen}}
+    </div>
+    <div class="detail wifi">
+        <span>Wifi?: </span>{{@rental.wifi}}
+    </div>
+    <div class="detail price">
+        <span>Price: </span>${{@rental.price}}
+    </div>
+  </div>
+  <div class="detail-description">
+      <p>{{@rental.description}}</p>
+  </div>
+
+  <Map
+    @lat={{@rental.location.lat}}
+    @lng={{@rental.location.lng}}
+    @zoom="12"
+    @width="894"
+    @height="600"
+    alt="A map of {{@rental.title}}"
+    class="large"
+  />
+
+</article>
+
+
