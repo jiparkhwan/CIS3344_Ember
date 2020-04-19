@@ -1,0 +1,107 @@
+<div id="hostAStay">
+    <h3 id="hostHeader">Enter The Information of Your Place Here</h3>
+    
+        <div id="leftSide">
+            <label>Title:</label> <br />
+            <Input id="title" @type="text" @value={{this.title}}/>
+            <br />
+            <label>Owner Name:</label> <br />
+            <Input id="owner" @type="text" @value={{this.owner}}/>
+            <br />
+            <label>City:</label> <br />
+            <Input id="city" @type="text" @value={{this.city}}/>
+            <br />
+            <label>State:</label> <br />
+            <Input id="state" @type="text" @value={{this.state}}/>
+            <br />
+            <label>Country:</label> <br />
+            <Input id="country" @type="text" @value={{this.country}}/>
+            <br />
+            <label>Kitchen Type:</label> <br />
+            <Input id="kitchen" @type="text" @value={{this.kitchen}}/>
+            <br />
+            <label>Property Type:</label> <br />
+            <Input id="property" @type="text" @value={{this.property}}/>
+            <br />
+        </div>
+
+        <div id="rightSide">
+            <label>Image Url:</label> <br />
+            <Input id="image" @type="text" @value={{this.image}}/>
+            <br />
+            <label>Bedrooms:</label> <br />
+            <Input id="bedrooms" @type="text" @value={{this.bedrooms}}/>
+            <br />
+            <label>Bathrooms:</label> <br />
+            <Input id="bathrooms" @type="text" @value={{this.bathrooms}}/>
+            <br />
+            <label>Wifi Status:</label> <br />
+            <Input id="wifi" @type="text" @value={{this.wifi}}/>
+            <br />
+            <label>Price:</label> <br />
+            <Input id="price" @type="text" @value={{this.price}}/>
+            <br />
+            <label>Description:</label> <br />
+            <Input id="description" @type="text" @value={{this.description}}/>
+        </div>
+        <div id="buttonForHost">
+        <button id="hostButton">Host Stay</button>
+    </div>
+    
+ <script language="javascript">
+
+    let newProperties = new Array();
+    document.getElementById("hostButton").onclick = hostStay_onclick;
+
+ 
+    
+    function propertyClass(title, owner, city, state, country, kitchen, property, image, bedrooms, bathrooms, wifi, price, description) {
+      this.title = title;
+      this.owner = owner;
+      this.state = state;
+      this.country = country;
+      this.kitchen = kitchen;
+      this.property = property;
+      this.image = image;
+      this.bedrooms = bedrooms;
+      this.bathrooms = bathrooms;
+      this.wifi = wifi;
+      this.price = price;
+      this.description = description;
+    }
+
+
+    function hostStay_onclick() {
+      let title = document.getElementById("title").value;
+      let owner = document.getElementById("owner").value;
+      let city = document.getElementById("city").value;
+      let state = document.getElementById("state").value;
+      let country = document.getElementById("country").value;
+      let kitchen = document.getElementById("kitchen").value;
+      let property = document.getElementById("property").value;
+      let image = document.getElementById("image").value;
+      let bedrooms = document.getElementById("bedrooms").value;
+      let bathrooms = document.getElementById("bathrooms").value;
+      let wifi = document.getElementById("wifi").value;
+      let price = document.getElementById("price").value;
+      let description = document.getElementById("description").value;
+
+      console.log(title);
+
+      let newPropertyObject = new propertyClass(title, owner, city, state, country, kitchen, property, image, bedrooms, bathrooms, wifi, price, description);
+      newProperties.push(newPropertyObject);
+
+
+      console.log(newProperties);
+     // console.log(document.getElementById("yo").value);
+
+      for (let i = 0; i < newProperties.length; i++) {
+        window.localStorage.setItem("property" + i, JSON.stringify(newProperties[i]));
+       
+    }
+    console.log(localStorage);
+  }
+   
+  </script>
+    
+</div>
