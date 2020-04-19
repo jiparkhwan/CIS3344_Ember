@@ -837,7 +837,36 @@ i {
   height: 1px; width: 1px;
   margin: -1px; padding: 0; border: 0;
 }
+#hostAStay {
+  text-align: center;
+  padding: 15px;
+}
+#hostButton {
+  padding: 10px;
+}
+#clearDiv {
+  padding: 25px;
+}
+#newProperties {
+  padding: 20px;
+}
+#showNew {
+  padding: 15px;
+  margin: 20px;
+}
 
+#propertiesDiv {
+  padding: 30px;
+}
+#propertyTitle {
+  padding: 35px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  
+  padding: 0;
+}
 .footer {
   background-color: black;
   color:white;
