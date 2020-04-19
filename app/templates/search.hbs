@@ -4,6 +4,114 @@
         <br>
         <h2>LexPark Luxary Rentals</h2>
         <p>Find your dream rental location for your vacation, work, and travel adventures!</p>
+
+
         <Rentals @rentals={{@model}} />
+
+        <div id="propertiesDiv">
+            <h1 id="showHeader">Show Recently Added Properties:</h1>
+            <button id="showNew"> Click Me!</button>
+        </div>
+
+        <script language="javascript">
+
+            var searchPageArray = new Array();
+            document.getElementById("showNew").onclick = showNewProperties;
+
+            function showNewProperties() {
+                for (let key in localStorage) {
+                    let temp = JSON.parse(window.localStorage.getItem(key));
+                    searchPageArray.push(temp);
+                }
+                console.log(searchPageArray);
+
+                for (let i = 0; i < searchPageArray.length; i++) {
+                    populate(searchPageArray[i]);
+                }
+            }
+            function populate(arg) {
+                let clear = document.createElement("div");
+
+                let container = document.getElementById("propertiesDiv");
+
+                let propertyDiv = document.createElement("div");
+                propertyDiv.setAttribute("class", "property");
+
+                let propertyList = document.createElement("ul");
+                propertyList.setAttribute("class", "details");
+
+                let recentlyAdded = document.createElement("h3");
+                recentlyAdded.appendChild(document.createTextNode("Recently Added!"))
+
+                let image = document.createElement("img");
+                image.setAttribute("src", arg.image);
+
+                let title = document.createElement("h3");
+                title.setAttribute("id","propertyTitle");
+                title.appendChild(document.createTextNode(arg.title));
+                //   propertyList.appendChild(title);
+                //  title.setAttribute("class", "detail title");
+
+                let owner = document.createElement("li");
+                owner.appendChild(document.createTextNode("Owner: " + arg.owner));
+                propertyList.appendChild(owner);
+                owner.setAttribute("class", "detail owner");
+
+                let property = document.createElement("li");
+                property.appendChild(document.createTextNode("Property type: " + arg.property));
+                propertyList.appendChild(property);
+                property.setAttribute("class", "detail type");
+
+                let city = document.createElement("li");
+                city.appendChild(document.createTextNode("City: " + arg.city));
+                propertyList.appendChild(city);
+                city.setAttribute("class", "detail city");
+
+                let state = document.createElement("li");
+                state.appendChild(document.createTextNode("State: " + arg.state));
+                propertyList.appendChild(state);
+                state.setAttribute("class", "detail state");
+
+                let country = document.createElement("li");
+                country.appendChild(document.createTextNode("Country: " + arg.country));
+                propertyList.appendChild(country);
+                country.setAttribute("class", "detail country");
+
+                let bedrooms = document.createElement("li");
+                bedrooms.appendChild(document.createTextNode("Number of Bedrooms: " + arg.bedrooms));
+                propertyList.appendChild(bedrooms);
+                bedrooms.setAttribute("class", "detail bedrooms");
+
+                let bathrooms = document.createElement("li");
+                bathrooms.appendChild(document.createTextNode("Number of Bathrooms: " + arg.bathrooms));
+                propertyList.appendChild(bathrooms);
+                bathrooms.setAttribute("class", "detail bathrooms");
+
+                let kitchen = document.createElement("li");
+                kitchen.appendChild(document.createTextNode("Kitche Type: " + arg.kitchen));
+                propertyList.appendChild(kitchen);
+                kitchen.setAttribute("class", "detail kitchen");
+
+                let wifi = document.createElement("li");
+                wifi.appendChild(document.createTextNode("Wifi?: " + arg.wifi));
+                propertyList.appendChild(wifi);
+                wifi.setAttribute("class", "detail wifi");
+
+                let price = document.createElement("li");
+                price.appendChild(document.createTextNode("Price: $" + arg.price));
+                propertyList.appendChild(price);
+                price.setAttribute("class", "detail price");
+
+              //  propertyDiv.appendChild(recentlyAdded);
+                propertyDiv.appendChild(title);
+                propertyDiv.appendChild(image);
+                propertyDiv.appendChild(propertyList);
+                clear.setAttribute("id", "clearDiv");
+                propertyDiv.appendChild(clear);
+
+                //add to search page
+                container.appendChild(propertyDiv);
+            }
+        </script>
     </div>
 </Info>
